@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffb300"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/qui" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="#79b700"></View>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="2dp"
+        android:background="#79b700"></View>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@color/white"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="  Select Quiz "
+                android:textColor="#ffb300"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="10dp">
+
+                <Button
+                    android:id="@+id/btnSecondScreen"
+                    style="@style/Button1"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/android"
+                    android:text="Android Quiz"
+                    android:textColor="#ffb300"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnThirdScreen"
+                    style="@style/Button1"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/java"
+                    android:text="Java Quiz"
+                    android:textColor="#ffb300"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="#c41c00"></View>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="2dp"
+                android:background="#c41c00"
+                android:layout_marginBottom="20dp"></View>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

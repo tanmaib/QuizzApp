@@ -1,0 +1,60 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Background color of buttons in the app -->
+        <item name="colorButtonNormal">#fafafa</item>
+    </style>
+
+    <style name="Button1">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">20sp</item>
+
+    </style>
+
+    <style name="Button2">
+        <item name="android:layout_width">@dimen/wrap_content</item>
+        <item name="android:layout_height">@dimen/wrap_content</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">20sp</item>
+
+    </style>
+
+    <style name="EditText">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/wrap_content</item>
+        <item name="android:layout_margin">7dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:inputType">textMultiLine</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@color/button</item>
+    </style>
+
+    <style name="TextView">
+        <item name="android:layout_width">@dimen/match_parent</item>
+        <item name="android:layout_height">183dp</item>
+        <item name="android:layout_marginBottom">7dp</item>
+        <item name="android:layout_marginTop">7dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+</resources>

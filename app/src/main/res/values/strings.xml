@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">QizzApp</string>
+    <string name="button1">Android Quiz  </string>
+    <string name="button2">Java Quiz</string>
+
+    <string name="q1_android">Q1. How to get a response from an activity in Android?</string>
+    <string name="q1_a1_android">startActivityToResult()</string>
+    <string name="q1_a2_android">startActiivtyForResult()</string>
+    <string name="q1_a3_android">Bundle()</string>
+    <string name="q1_a4_android">None of the above</string>
+
+    <string name="q2_android">Q2. Android is based on which kernel?</string>
+    <string name="q2_a1_android">Linux kernel</string>
+    <string name="q2_a2_android">Windows kernel</string>
+    <string name="q2_a3_android">MAC kernel</string>
+    <string name="q2_a4_android">Hybrid Kernel</string>
+
+    <string name="q3_android">Q3. Which are the lifecycle methods of Android activity.<small><i>(Select all that apply)</i></small></string>
+    <string name="q3_a1_android">onCreate()</string>
+    <string name="q3_a2_android">onSaveInstanceState()</string>
+    <string name="q3_a3_android">onStart()</string>
+    <string name="q3_a4_android">onDestroy()</string>
+
+    <string name="q4_android">Q4. Is Android available in ROM?</string>
+    <string name="q4_a4_android">true or false</string>
+
+    <string name="q1_java">Q1. What is correct syntax for main method of a java class?</string>
+    <string name="q1_a1_java">public static int main(String[] args)</string>
+    <string name="q1_a2_java">public int main(String[] args)</string>
+    <string name="q1_a3_java">public static void main(String[] args)</string>
+    <string name="q1_a4_java">None of the above.</string>
+
+    <string name="q2_java">Q2. What is the default value of Boolean variable?</string>
+    <string name="q2_a1_java">true</string>
+    <string name="q2_a2_java">false</string>
+    <string name="q2_a3_java">null</string>
+    <string name="q2_a4_java">not defined</string>
+
+    <string name="q3_java">Q3. Which are the Pimary Data types in java? <small><i>(Select all that apply)</i></small></string>
+    <string name="q3_a1_java">int</string>
+    <string name="q3_a2_java">String</string>
+    <string name="q3_a3_java">long</string>
+    <string name="q3_a4_java">char</string>
+
+    <string name="q4_java">Q4. A class always has a default constructor?</string>
+    <string name="q4_a4_java">true or false</string>
+    <string name="dialog"><bold>You answered %1$d/4 correctly.</bold></string>
+
+</resources>
